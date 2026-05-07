@@ -1,0 +1,138 @@
+{
+  "quizzes": [
+    {
+      "id": "1",
+      "topic": "Web Development Basics",
+      "description": "Master the fundamentals of HTML, CSS, and web architecture.",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does HTML stand for?",
+          "options": [
+            "Hyper Text Markup Language",
+            "High Tech Modern Language",
+            "Hyperlink and Text Management Language",
+            "Home Tool Markup Language"
+          ],
+          "correctAnswer": "Hyper Text Markup Language",
+          "explanation": "HTML is the standard markup language for documents designed to be displayed in a web browser."
+        },
+        {
+          "id": "q2",
+          "question": "Which CSS property is used to change the text color of an element?",
+          "options": [
+            "fgcolor",
+            "text-color",
+            "color",
+            "font-color"
+          ],
+          "correctAnswer": "color",
+          "explanation": "The 'color' property specifies the color of text inside an element."
+        },
+        {
+          "id": "q3",
+          "question": "What is the purpose of the <head> tag in HTML?",
+          "options": [
+            "To display the main title on the page",
+            "To contain metadata and links to scripts/stylesheets",
+            "To define the footer of the document",
+            "To create a navigation bar"
+          ],
+          "correctAnswer": "To contain metadata and links to scripts/stylesheets",
+          "explanation": "The <head> element is a container for metadata and is placed between the <html> tag and the <body> tag."
+        },
+        {
+          "id": "q4",
+          "question": "Which of these is NOT a valid CSS display property value?",
+          "options": [
+            "flex",
+            "grid",
+            "block",
+            "spacing"
+          ],
+          "correctAnswer": "spacing",
+          "explanation": "'spacing' is not a value for the display property. Common values include block, inline, flex, and grid."
+        },
+        {
+          "id": "q5",
+          "question": "What does the 'box-sizing: border-box' property do?",
+          "options": [
+            "Adds a border to every element",
+            "Includes padding and border in the element's total width and height",
+            "Forces all elements to be square",
+            "Excludes padding from the width calculation"
+          ],
+          "correctAnswer": "Includes padding and border in the element's total width and height",
+          "explanation": "Border-box tells the browser to account for any border and padding in the values you specify for an element's width and height."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "topic": "Advanced JavaScript",
+      "description": "Deep dive into closures, prototypes, and asynchronous patterns.",
+      "questions": [
+        {
+          "id": "q6",
+          "question": "What is a 'closure' in JavaScript?",
+          "options": [
+            "A way to close the browser tab",
+            "A function combined with its lexical environment",
+            "A method to terminate a loop",
+            "A specific type of error"
+          ],
+          "correctAnswer": "A function combined with its lexical environment",
+          "explanation": "A closure gives you access to an outer function's scope from an inner function."
+        },
+        {
+          "id": "q7",
+          "question": "Which keyword is used to handle asynchronous operations in a synchronous-looking way?",
+          "options": [
+            "wait",
+            "async/await",
+            "promise",
+            "defer"
+          ],
+          "correctAnswer": "async/await",
+          "explanation": "Async/await allows you to write promise-based code as if it were synchronous, but without blocking the main thread."
+        },
+        {
+          "id": "q8",
+          "question": "What is the output of 'console.log(typeof NaN)'?",
+          "options": [
+            "number",
+            "nan",
+            "undefined",
+            "object"
+          ],
+          "correctAnswer": "number",
+          "explanation": "In JavaScript, NaN (Not-a-Number) is actually a numeric data type."
+        },
+        {
+          "id": "q9",
+          "question": "What is the 'Event Loop'?",
+          "options": [
+            "A loop that listens for mouse clicks only",
+            "A mechanism that handles asynchronous callbacks in JS",
+            "A specific type of for-loop",
+            "An internal browser debugger"
+          ],
+          "correctAnswer": "A mechanism that handles asynchronous callbacks in JS",
+          "explanation": "The Event Loop monitors the Call Stack and the Callback Queue to execute code asynchronously."
+        },
+        {
+          "id": "q10",
+          "question": "What does the 'bind' method do?",
+          "options": [
+            "Immediately executes a function",
+            "Creates a new function with a specific 'this' context",
+            "Links two variables together",
+            "Stops an event from bubbling"
+          ],
+          "correctAnswer": "Creates a new function with a specific 'this' context",
+          "explanation": "The bind() method creates a new function that, when called, has its 'this' keyword set to the provided value."
+        }
+      ]
+    }
+  ]
+}

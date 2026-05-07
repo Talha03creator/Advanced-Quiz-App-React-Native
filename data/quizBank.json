@@ -1,0 +1,188 @@
+{
+  "HTML": [
+    {
+      "id": "h1",
+      "question": "Which HTML5 element is used to specify a footer for a document or section?",
+      "options": [
+        "<bottom>",
+        "<footer>",
+        "<end>",
+        "<section-footer>"
+      ],
+      "correctAnswer": "<footer>",
+      "explanation": "The <footer> tag defines a footer for a document or section, typically containing author info or copyright."
+    },
+    {
+      "id": "h2",
+      "question": "What is the purpose of the <canvas> element?",
+      "options": [
+        "To display database records",
+        "To draw graphics via scripting (usually JS)",
+        "To create draggable elements",
+        "To play video files"
+      ],
+      "correctAnswer": "To draw graphics via scripting (usually JS)",
+      "explanation": "The <canvas> element is used to draw graphics on the fly via JavaScript."
+    },
+    {
+      "id": "h3",
+      "question": "What is your name?",
+      "options": [
+        "target='Sidhu'",
+        "target='_new'",
+        "open='new'",
+        "tab='_blank'"
+      ],
+      "correctAnswer": "target='_blank'",
+      "explanation": "Setting the target attribute to '_blank' tells the browser to open the linked document in a new window or tab."
+    },
+    {
+      "id": "h4",
+      "question": "What does the <meta> tag provide?",
+      "options": [
+        "Visible content",
+        "Navigation links",
+        "Metadata about the HTML document",
+        "Style definitions"
+      ],
+      "correctAnswer": "Metadata about the HTML document",
+      "explanation": "Meta tags provide metadata like description, keywords, and viewport settings, which are not displayed on the page."
+    },
+    {
+      "id": "h5",
+      "question": "Which tag is used to define an unordered list?",
+      "options": [
+        "<ol>",
+        "<li>",
+        "<ul>",
+        "<list>"
+      ],
+      "correctAnswer": "<ul>",
+      "explanation": "The <ul> tag defines an unordered (bulleted) list."
+    }
+  ],
+  "CSS": [
+    {
+      "id": "c1",
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "correctAnswer": "font-size",
+      "explanation": "The 'font-size' property sets the size of the font."
+    },
+    {
+      "id": "c2",
+      "question": "How do you select an element with id 'header'?",
+      "options": [
+        ".header",
+        "#header",
+        "*header",
+        "header"
+      ],
+      "correctAnswer": "#header",
+      "explanation": "The '#' symbol is used to select an element by its unique ID."
+    },
+    {
+      "id": "c3",
+      "question": "What is the default value of the 'position' property?",
+      "options": [
+        "relative",
+        "fixed",
+        "absolute",
+        "static"
+      ],
+      "correctAnswer": "static",
+      "explanation": "HTML elements are positioned static by default; they are not affected by top, bottom, left, or right properties."
+    },
+    {
+      "id": "c4",
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "bgcolor",
+        "background-color",
+        "surface-color"
+      ],
+      "correctAnswer": "background-color",
+      "explanation": "The 'background-color' property sets the background color of an element."
+    },
+    {
+      "id": "c5",
+      "question": "Which property is used to create space between the element's border and content?",
+      "options": [
+        "margin",
+        "padding",
+        "spacing",
+        "border-spacing"
+      ],
+      "correctAnswer": "padding",
+      "explanation": "Padding is the space between the content of an element and its border."
+    }
+  ],
+  "React Native": [
+    {
+      "id": "rn1",
+      "question": "Which component is used to display text in React Native?",
+      "options": [
+        "<Label>",
+        "<Text>",
+        "<p>",
+        "<Span>"
+      ],
+      "correctAnswer": "<Text>",
+      "explanation": "In React Native, all text must be wrapped in a <Text> component."
+    },
+    {
+      "id": "rn2",
+      "question": "How do you handle user button presses in React Native?",
+      "options": [
+        "onClick",
+        "onPress",
+        "onSelect",
+        "onTap"
+      ],
+      "correctAnswer": "onPress",
+      "explanation": "React Native components like TouchableOpacity use the 'onPress' prop to handle interactions."
+    },
+    {
+      "id": "rn3",
+      "question": "Which hook is used to manage state in a functional component?",
+      "options": [
+        "useEffect",
+        "useMemo",
+        "useState",
+        "useRef"
+      ],
+      "correctAnswer": "useState",
+      "explanation": "useState allows functional components to have their own local state."
+    },
+    {
+      "id": "rn4",
+      "question": "What is the primary layout engine used in React Native?",
+      "options": [
+        "CSS Grid",
+        "Flexbox",
+        "Floats",
+        "Tables"
+      ],
+      "correctAnswer": "Flexbox",
+      "explanation": "React Native uses a subset of CSS Flexbox to provide a consistent layout across different screen sizes."
+    },
+    {
+      "id": "rn5",
+      "question": "Which component is best for rendering long, scrollable lists of data efficiently?",
+      "options": [
+        "<ScrollView>",
+        "<View>",
+        "<FlatList>",
+        "<ListView>"
+      ],
+      "correctAnswer": "<FlatList>",
+      "explanation": "FlatList is highly optimized for long lists as it only renders items currently visible on the screen."
+    }
+  ]
+}
